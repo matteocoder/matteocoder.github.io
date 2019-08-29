@@ -1,0 +1,30 @@
+  html{
+  font-size:100%;
+  }
+  body{
+  margin:0 auto;
+  padding:1em;
+  max-width: 33em;
+  line-height:1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  #myface{
+  display:block;
+  margin:0 auto;
+  width:30%;
+  }
+  
+  /*
+  h1,h2,h3{
+  line-height:1.2;
+  }
+  a{
+  color:#859900;
+  }
+  #inspiration{
+  color:#eee8d5;
+  font-size:75%;
+  }
+  */
