@@ -1,5 +1,5 @@
 body{
-  color:#000000;
+  color:#333333;
   background:#fef9f5;
   }
 #myface{
@@ -11,10 +11,6 @@ body{
   }
 a{
   color:#0040b8;
-  text-decoration:none;
-  }
-a:hover{
-  text-decoration:underline;
   }
 footer{
 padding-top:1em;
@@ -23,7 +19,6 @@ font-size:small;
 header{
 text-align:center;
 }
-#profiles{
-font-size:large;
-margin-top:-1em;
+h1,h2{
+	line-height:1.2;
 }
