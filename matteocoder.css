@@ -1,6 +1,6 @@
 html{
-    color:#333333;
-    background:#fef9f5;
+    color:#dddddd;
+    background:#111111;
     font-size:large;
 }
 #myface{
@@ -11,7 +11,7 @@ html{
     border-radius:50%;
 }
 a{
-  color:#0040b8;
+  color:#F7AE04;
 }
 footer{
     padding-top:1em;
