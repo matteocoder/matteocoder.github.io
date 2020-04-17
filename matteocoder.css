@@ -1,5 +1,4 @@
 html{
-    color:#24292e;
     font-size:large;
 }
 #myface{
@@ -18,4 +17,15 @@ footer{
 }
 header{
     text-align:center;
+}
+@media(prefers-color-scheme: dark){
+    html{
+        color:#d6d6d6;
+        background:black;
+    }
+}
+@media(prefers-color-scheme: light){
+    html{
+        color:#24292e;    
+    }
 }
