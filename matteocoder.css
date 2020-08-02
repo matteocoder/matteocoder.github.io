@@ -9,7 +9,7 @@ html{
     border-radius:50%;
 }
 a{
-  color:#1775d3;
+    color:#1775d3;
 }
 footer{
     padding-top:1em;
@@ -26,6 +26,6 @@ header{
 }
 @media(prefers-color-scheme: light){
     html{
-        color:#24292e;    
+        color:#24292e;
     }
 }
