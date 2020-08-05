@@ -1,5 +1,6 @@
 html{
     font-size:large;
+    font-variant-ligatures:discretionary-ligatures;
 }
 #myface{
     display:block;
