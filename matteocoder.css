@@ -1,5 +1,13 @@
 html{
     font-size:large;
+    max-width:33em;
+    margin:auto;
+    padding:1em;
+    line-height:1.5;
+    font-family:"Noto Serif","DejaVu Serif","Georgia",serif;
+}
+*{
+    box-sizing:border-box;
 }
 #myface{
     display:block;
