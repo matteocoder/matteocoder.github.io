@@ -4,7 +4,7 @@ html{
     margin:auto;
     padding:1em;
     line-height:1.5;
-    font-family:"Noto Serif","DejaVu Serif","Georgia",serif;
+    font-family:sans-serif;
 }
 *{
     box-sizing:border-box;
