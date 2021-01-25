@@ -1,10 +1,13 @@
 html{
-    font-size:large;
+    font-size:calc(1em + 0.33vw);
     max-width:33em;
     margin:auto;
-    padding:1em;
+    padding:0.5em;
     line-height:1.5;
-    font-family:sans-serif;
+    font-family:system-ui,-apple-system,sans-serif;
+}
+h1{
+    font-size:calc(1.5em + 0.33vw)
 }
 *{
     box-sizing:border-box;
