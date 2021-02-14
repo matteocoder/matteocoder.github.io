@@ -2,12 +2,13 @@ html{
     font-size:calc(1em + 0.33vw);
     max-width:33em;
     margin:auto;
-    padding:0.5em;
+    padding:1em;
     line-height:1.5;
-    font-family:system-ui,-apple-system,sans-serif;
+    font-family:"Sitka Text","Noto Serif","Georgia",serif;
+    font-variant-numeric:lining-nums;
 }
 h1{
-    font-size:calc(1.5em + 0.33vw)
+    font-size:calc(1.61em + 0.33vw)
 }
 *{
     box-sizing:border-box;
