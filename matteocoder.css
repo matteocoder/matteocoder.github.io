@@ -3,7 +3,7 @@
     --link-fg:#1775d3;
     --text-fg-dark:#d6d6d6;
     --text-bg-dark:black;
-    --scale-factor:0.22vw;
+    --scale-factor:0.33vw;
 }
 *{
     box-sizing:border-box;
@@ -18,7 +18,7 @@ html{
     font-variant-numeric:lining-nums;
 }
 h1{
-    font-size:calc(1.61em + var(--scale-factor));
+    font-size:calc(2em + var(--scale-factor));
 }
 #myface{
     display:block;
@@ -32,24 +32,12 @@ a{
 header{
     text-align:center;
 }
-hr{
-    height:1px;
-    border:none;
-}
 @media(prefers-color-scheme: dark){
     html{
         color:var(--text-fg-dark);
-        background:var(--text-bg-dark);
-    }
-    hr{
-        background:var(--text-fg-dark);
-    }
-}
+        background:var(--text-bg-dark);}
 @media(prefers-color-scheme: light){
     html{
         color:var(--text-fg-light);
-    }
-    hr{
-        background:var(--text-fg-light);
     }
 }
