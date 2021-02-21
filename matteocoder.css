@@ -32,12 +32,14 @@ a{
 header{
     text-align:center;
 }
-@media(prefers-color-scheme: dark){
-    html{
-        color:var(--text-fg-dark);
-        background:var(--text-bg-dark);}
 @media(prefers-color-scheme: light){
     html{
         color:var(--text-fg-light);
+    }
+}
+@media(prefers-color-scheme: dark){
+    html{
+        color:var(--text-fg-dark);
+        background:var(--text-bg-dark);
     }
 }
