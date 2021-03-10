@@ -29,6 +29,7 @@ html{
 }
 h1{
     font-size:calc(2em + var(--scale-factor));
+    font-weight:normal;
 }
 #myface{
     display:block;
