@@ -1,9 +1,17 @@
 :root{
-    --text-fg-light:#24292e;
-    --link-fg:#1775d3;
-    --text-fg-dark:#d6d6d6;
-    --text-bg-dark:black;
     --scale-factor:0.33vw;
+    --link-fg:#1775d3;
+}
+@media(prefers-color-scheme: light){
+    :root{
+        --text-fg:#24292e;
+    }
+}
+@media(prefers-color-scheme: dark){
+    :root{
+        --text-fg:#d6d6d6;
+        --text-bg:black;
+    }
 }
 *{
     box-sizing:border-box;
@@ -16,6 +24,8 @@ html{
     line-height:1.5;
     font-family:"Sitka Text","Noto Serif","Georgia",serif;
     font-variant-numeric:lining-nums;
+    color:var(--text-fg);
+    background:var(--text-bg);
 }
 h1{
     font-size:calc(2em + var(--scale-factor));
@@ -31,15 +41,4 @@ a{
 }
 header{
     text-align:center;
-}
-@media(prefers-color-scheme: light){
-    html{
-        color:var(--text-fg-light);
-    }
-}
-@media(prefers-color-scheme: dark){
-    html{
-        color:var(--text-fg-dark);
-        background:var(--text-bg-dark);
-    }
 }
