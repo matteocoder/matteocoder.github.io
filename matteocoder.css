@@ -22,7 +22,7 @@ html{
     margin:auto;
     padding:1em;
     line-height:1.5;
-    font-family:"Sitka Text","Noto Serif","Georgia",serif;
+    font-family:-apple-system,system-ui,sans-serif;
     font-variant-numeric:lining-nums;
     color:var(--text-fg);
     background:var(--text-bg);
@@ -41,4 +41,9 @@ a{
 }
 header{
     text-align:center;
+}
+hr{
+    border:none;
+    height:2px;
+    background:var(--text-fg);
 }
