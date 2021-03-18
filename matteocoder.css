@@ -43,8 +43,3 @@ a{
 header{
     text-align:center;
 }
-hr{
-    border:none;
-    height:2px;
-    background:var(--text-fg);
-}
